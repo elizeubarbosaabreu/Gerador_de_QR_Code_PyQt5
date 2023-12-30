@@ -9,7 +9,7 @@ O **Gerador de QR Code PyQt5** é um aplicativo desenhado no [Qt Designer](https
 
 ## COMO USAr?
 
-Basta baixar o repositório com o comando: `link do repo` e começar a usar o app abrindo um terminal dentro do diretório e usando o comando: `python3 app.py`
+Basta baixar o repositório com o comando: `git clone https://github.com/elizeubarbosaabreu/Gerador_de_QR_Code_PyQt5.git` e começar a usar o app abrindo um terminal dentro do diretório e usando o comando: `python3 app.py`
 
 As dependências podem ser instaladas via pip usando o comando: `pip install -r requirements.txt`
 
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Aí para executar o programa basta rodar o comando: `python3 app.py`.
 
 
-## aGRADECIMENTOS
+## AGRADECIMENTOS
 
 Obrigado por visitar meu repositório e acreditar no meu trabalho.
 
