@@ -2,6 +2,7 @@ from PyQt5 import uic, QtWidgets, QtGui
 import qrcode
 
 
+
 def gerar_e_exibir_imagem(): 
     content = janela.lineEdit.text() 
     imagem_qrcode = qrcode.make(content)
@@ -35,7 +36,7 @@ def carregar_imagem():
 
 
 app = QtWidgets.QApplication([])
-janela = uic.loadUi("template.ui")
+janela = uic.loadUi("/home/elizeu/Projetos/Gerador_de_QR_Code_PyQt5/template.ui")
 
 
 janela.pushButton.clicked.connect(gerar_e_exibir_imagem)

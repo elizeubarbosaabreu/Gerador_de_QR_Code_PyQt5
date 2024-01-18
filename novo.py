@@ -10,7 +10,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 import qrcode # Adição das Bibliotecas 
-from time import sleep
+
 
 
 class Ui_MainWindow(object):    
