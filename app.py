@@ -1,6 +1,6 @@
 from PyQt5 import uic, QtWidgets, QtGui
 import qrcode
-
+from time import sleep
 
 
 def gerar_e_exibir_imagem(): 
@@ -36,7 +36,7 @@ def carregar_imagem():
 
 
 app = QtWidgets.QApplication([])
-janela = uic.loadUi("/home/elizeu/Projetos/Gerador_de_QR_Code_PyQt5/template.ui")
+janela = uic.loadUi("/home/elizeu/Workspace/Gerador_de_QR_Code_PyQt5/template.ui")
 
 
 janela.pushButton.clicked.connect(gerar_e_exibir_imagem)
